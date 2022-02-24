@@ -1,0 +1,25 @@
+.meal-Container img{
+    width: 150px;
+    box-shadow: 3px 5px rgba(211, 211, 211, 0.404);
+}
+
+.meal-Container{
+    display: flex;
+    border: solid 2px green;
+    border-bottom: lightgray 1px solid;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 2px 3px 2px #88888880;
+}
+
+.meal-Details{
+    margin-left: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.meal-image{
+    margin-left: 5px;
+    padding: 10px;
+
+}
