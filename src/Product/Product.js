@@ -4,6 +4,10 @@ import './Product.css'
 const Product = (props) => {
     // console.log(props.product)
 
+    // console.log(props.product)
+
+    // console.log(props)
+
     const { idMeal, strMeal, strArea, strMealThumb } = props.product
 
 
@@ -16,6 +20,7 @@ const Product = (props) => {
                 <h5>Item name: {strMeal}</h5>
                 <p>Meal ID: {idMeal}</p>
                 <p><small>Area:{strArea}</small></p>
+                <button onClick={() => props.handleProducts(props.product)} className='orderbutton'>Order Now</button>
             </div>
 
         </div>

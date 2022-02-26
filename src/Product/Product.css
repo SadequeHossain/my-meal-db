@@ -23,3 +23,12 @@
     padding: 10px;
 
 }
+
+.orderbutton{
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgba(68, 0, 255, 0.945);
+    color: white;
+}

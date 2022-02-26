@@ -1,0 +1,23 @@
+.Meal-Details{
+
+    text-align: center;
+
+}
+
+.Meal-Details h2{
+ border-bottom: lightgray solid 1px;
+}
+
+.meal-image img{
+    width: 300px;
+}
+.meal-Details{
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 30px;
+
+}
+
+.instruction{
+    text-align: justify;
+}

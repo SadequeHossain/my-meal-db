@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 import './Shop.css'
 
@@ -12,6 +13,8 @@ const Shop = () => {
 
     const [inputData, setInputData] = useState([]);
     let [print, setPrint] = useState([false]);
+
+    const [cartDetails, setCartDetails] = useState([]);
 
     useEffect(() => {
 
@@ -27,7 +30,7 @@ const Shop = () => {
 
             });
     }, [])
-    console.log(Products);
+    // console.log(Products);
 
     // const handleSearch = (event) => {
     //     const searchText = event.target.inputText.value;
@@ -53,7 +56,19 @@ const Shop = () => {
 
     }
 
-    console.log('Here is mysearch', mySearch());
+    // console.log('Here is mysearch', mySearch());
+
+
+    const handleProducts = (product) => {
+
+        // console.log(product)
+        setCartDetails(product);
+
+    }
+
+
+    // handleProducts();
+
 
 
     // console.log('The length is', Products.length);
@@ -69,12 +84,18 @@ const Shop = () => {
 
                     {
                         Products.map(product => <Product product={product}
-                            key={product.idMeal}></Product>)
+                            key={product.idMeal}
+                            handleProducts={handleProducts}
+
+                        ></Product>)
                     }
 
                 </div>
                 <div>
-                    <h1>InPut: {mySearch}</h1>
+
+                    <Cart cartDetails={cartDetails}></Cart>
+
+
                 </div>
             </div>
         </div>
