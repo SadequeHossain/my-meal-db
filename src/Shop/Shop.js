@@ -78,8 +78,14 @@ const Shop = () => {
                 <input onChange={inputText} name='inputeText' type="text" placeholder='Search your favorite Meal!!!!!' />
                 <button onClick={() => setPrint(true)}>Search</button>
             </div>
-            <p>Item Found: {Products.length}</p>
+
             <div className='shop-Container'>
+                <div className='myCart'>
+
+                    <Cart cartDetails={cartDetails}></Cart>
+
+
+                </div>
                 <div className='product-container'>
 
                     {
@@ -91,12 +97,7 @@ const Shop = () => {
                     }
 
                 </div>
-                <div className='myCart'>
 
-                    <Cart cartDetails={cartDetails}></Cart>
-
-
-                </div>
             </div>
         </div>
     );

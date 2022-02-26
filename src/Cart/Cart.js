@@ -21,7 +21,7 @@ const Cart = (props) => {
 
                     <h5>Item name: {strMeal}</h5>
                     <p className='instruction'><span className='bold'>Instruction:</span> {strInstructions}</p>
-                    <p><small><span className='bold'>Area:</span> {strArea}</small></p>
+                    <p><small><span className='bold'>Area: </span> {strArea}</small></p>
 
                 </div>
 

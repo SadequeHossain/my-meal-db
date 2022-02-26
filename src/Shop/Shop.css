@@ -1,6 +1,7 @@
 .shop-Container{
     display: grid;
     grid-template-columns: 3fr 1fr;
+    justify-items: right;
 }
 
 .product-container{
@@ -12,14 +13,18 @@
     
 }
 .myCart{
-    height: auto;
+    height: 700px;
+    width: 400px;
     border-left: lightgray 1px solid;
     background-color:lightslategrey;
     box-shadow: 0 10px 50px 10px rgb(122, 164, 255);
     cursor: pointer;
-    
+    margin: 20px;
+    border-radius: 10px;
+    overflow-y: auto;
+    position: fixed;
+    align-content:flex-end;
 }
-
 
 
 .search-box{

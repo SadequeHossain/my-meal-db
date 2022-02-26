@@ -19,7 +19,7 @@ const Product = (props) => {
             <div className='meal-Details'>
                 <h5>Item name: {strMeal}</h5>
                 <p>Meal ID: {idMeal}</p>
-                <p><small>Area:{strArea}</small></p>
+                <p><small>Area: {strArea}</small></p>
                 <button onClick={() => props.handleProducts(props.product)} className='orderbutton'>See Details</button>
             </div>
 
