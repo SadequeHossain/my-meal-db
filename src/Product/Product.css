@@ -5,11 +5,14 @@
 
 .meal-Container{
     display: flex;
-    border: solid 2px green;
+    /* border: solid 2px green; */
     border-bottom: lightgray 1px solid;
-    margin: 5px;
+    margin: 10px;
     padding: 5px;
     box-shadow: 2px 3px 2px #88888880;
+    height: 220px;
+    background-color: lightsteelblue;
+    border-radius: 10px;
 }
 
 .meal-Details{
@@ -31,4 +34,5 @@
     border-radius: 5px;
     background-color: rgba(68, 0, 255, 0.945);
     color: white;
+    cursor:pointer;
 }

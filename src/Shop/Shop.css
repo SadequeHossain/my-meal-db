@@ -5,9 +5,22 @@
 
 .product-container{
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    border: red 2px solid;
+    grid-template-columns: repeat(3,1fr);
+    /* border: red 2px solid; */
+    height: auto;
+    margin: 20px;
+    
 }
+.myCart{
+    height: auto;
+    border-left: lightgray 1px solid;
+    background-color:lightslategrey;
+    box-shadow: 0 10px 50px 10px rgb(122, 164, 255);
+    cursor: pointer;
+    
+}
+
+
 
 .search-box{
     background-color: blue;

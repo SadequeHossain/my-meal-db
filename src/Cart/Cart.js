@@ -9,7 +9,7 @@ const Cart = (props) => {
     const { idMeal, strMeal, strArea, strMealThumb, strInstructions } = props.cartDetails
     return (
         <div>
-            <div>
+            <div className='mealID'>
                 <p><small>Meal ID: {idMeal}</small></p>
             </div>
             <div className='Meal-Details'>
@@ -20,8 +20,8 @@ const Cart = (props) => {
                 <div className='meal-Details'>
 
                     <h5>Item name: {strMeal}</h5>
-                    <p className='instruction'>Instruction: {strInstructions}</p>
-                    <p><small>Area: {strArea}</small></p>
+                    <p className='instruction'><span className='bold'>Instruction:</span> {strInstructions}</p>
+                    <p><small><span className='bold'>Area:</span> {strArea}</small></p>
 
                 </div>
 

@@ -20,7 +20,7 @@ const Product = (props) => {
                 <h5>Item name: {strMeal}</h5>
                 <p>Meal ID: {idMeal}</p>
                 <p><small>Area:{strArea}</small></p>
-                <button onClick={() => props.handleProducts(props.product)} className='orderbutton'>Order Now</button>
+                <button onClick={() => props.handleProducts(props.product)} className='orderbutton'>See Details</button>
             </div>
 
         </div>

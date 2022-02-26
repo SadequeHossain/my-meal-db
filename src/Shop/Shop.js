@@ -18,7 +18,7 @@ const Shop = () => {
 
     useEffect(() => {
 
-        const URL = 'https://www.themealdb.com/api/json/v1/1/search.php?s=Fish'
+        const URL = 'https://www.themealdb.com/api/json/v1/1/search.php?s=Chicken'
 
         // console.log('Product API Called')
         fetch(URL)
@@ -91,7 +91,7 @@ const Shop = () => {
                     }
 
                 </div>
-                <div>
+                <div className='myCart'>
 
                     <Cart cartDetails={cartDetails}></Cart>
 

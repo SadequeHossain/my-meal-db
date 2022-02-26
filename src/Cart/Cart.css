@@ -10,6 +10,7 @@
 
 .meal-image img{
     width: 300px;
+    padding: 20px;
 }
 .meal-Details{
     text-align: left;
@@ -18,6 +19,17 @@
 
 }
 
+.bold{
+    font-weight: bold;
+}
+
 .instruction{
     text-align: justify;
+}
+.mealID{
+    padding-left: 20px;
+    background-color:navy;
+    color: white;
+    height: 30px;
+    
 }
