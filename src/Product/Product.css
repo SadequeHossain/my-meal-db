@@ -1,33 +1,39 @@
 .meal-Container img{
-    width: 150px;
+    width: 200px;
     box-shadow: 3px 5px rgba(211, 211, 211, 0.404);
 }
 
 .meal-Container{
-    display: flex;
+    /* display: flex; */
     /* border: solid 2px green; */
     border-bottom: lightgray 1px solid;
     margin: 10px;
     padding: 5px;
     box-shadow: 2px 3px 2px #88888880;
-    height: 220px;
+    height: 390px;
     background-color: lightsteelblue;
     border-radius: 10px;
+    width: auto;
+
 }
 
 .meal-Details{
     margin-left: 10px;
     padding-bottom: 20px;
     
+    
 }
 
 .meal-image{
     margin-left: 5px;
-    padding: 10px;
+    
+    text-align: center;
+    /* border: solid 1px green; */
 
 }
 
 .orderbutton{
+    
     width: 100px;
     height: 25px;
     font-weight: bold;
@@ -35,4 +41,10 @@
     background-color: rgba(68, 0, 255, 0.945);
     color: white;
     cursor:pointer;
+    margin-top: 80px;
+    margin-right: 10px;
+}
+.meal-contaier{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }

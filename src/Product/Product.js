@@ -16,12 +16,17 @@ const Product = (props) => {
             <div className='meal-image'>
                 <img src={strMealThumb} alt="" />
             </div>
-            <div className='meal-Details'>
-                <h5>Item name: {strMeal}</h5>
-                <p>Meal ID: {idMeal}</p>
-                <p><small>Area: {strArea}</small></p>
-                <button onClick={() => props.handleProducts(props.product)} className='orderbutton'>See Details</button>
+            <div className='meal-contaier'>
+                <div className='meal-Details'>
+                    <h5>Item name: {strMeal}</h5>
+                    <p>Meal ID: {idMeal}</p>
+                    <p><small>Area: {strArea}</small></p>
+
+                </div>
+                <div><button onClick={() => props.handleProducts(props.product)} className='orderbutton'>See Details</button>
+                </div>
             </div>
+
 
         </div>
     );

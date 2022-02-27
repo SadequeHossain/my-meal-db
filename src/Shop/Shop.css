@@ -11,10 +11,14 @@
     height: auto;
     margin: 20px;
     
+    justify-content: center;
+    
+    /* border: lightsalmon 3px solid; */
+    
 }
 .myCart{
     height: 700px;
-    width: 400px;
+    width: 350px;
     border-left: lightgray 1px solid;
     background-color:lightslategrey;
     box-shadow: 0 10px 50px 10px rgb(122, 164, 255);
@@ -30,6 +34,7 @@
 .search-box{
     background-color: blue;
     min-height: 30px;
+    padding-left: 30px;
 }
 
 
